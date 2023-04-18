@@ -1,3 +1,9 @@
+<?php 
+session_start();
+$id_session = session_id();
+$_SESSION['login'] = 'Pierre';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
